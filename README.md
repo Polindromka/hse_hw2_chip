@@ -15,6 +15,25 @@ https://colab.research.google.com/drive/12-qelkrRcmU7LBn52GyvvAMxoQs7JAqa?usp=sh
 !trimmomatic SE -phred33 /content/drive/MyDrive/bioinformatics/ENCFF000VIV.fastq ENCFF000VIV_trimmed.fastq ILLUMINACLIP:TruSeq3-SE:2:30:10 \
   LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
 ```
+Однако, подрезание не улучшило значимо характиристики.
+### ENCFF000VIV
+**Per tile sequence quality**
+
+Full | Trimmed
+--- | --- 
+![Image](images/ENCFF000VIV_per_tile.png) | ![Image](images/ENCFF000VIV_per_tile_trimmed.png) 
+
+**Per base sequence content**
+
+Full | Trimmed
+--- | --- 
+![Image](images/ENCFF000VIV_per_base_sequence.png) | ![Image](images/ENCFF000VIV_per_base_sequence_trimmed.png) 
+
+**Per sequence GC content**
+
+Full | Trimmed
+--- | --- 
+![Image](images/ENCFF000VIV_per_sequence_GC.png) | ![Image](images/ENCFF000VIV_per_sequence_GC_trimmed.png) 
 ## Выравнивание на 19 хромосому
 
 Образец | Всего ридов | Выравнились 0 раз | Выравнились 1 раз | Выравнились > 1 раза | Общий процент выравнивания
