@@ -105,12 +105,32 @@ ENCFF000VIV | 32180108  | 28189186 | 2094036 | 1896886 | 12.40%
 ENCFF000VIX | 21440042  | 18925664 | 1362134 | 1152244 | 11.73% 
 ENCFF000VJK | 41671673  | 30686052 | 1659741 | 9325880 | 26.36%
 ## Venn
+**ENCFF000VIV**
 
 Venn 1 | Venn 2 
 --- | --- 
 ![Image](images/venn1.png) | ![Image](images/venn2.png) 
 
+**ENCFF000VIX**
 
+Venn 1 | Venn 2 
+--- | --- 
+![Image](images/venn1_2.png) | ![Image](images/venn2_2.png) 
+
+
+Заметим, что мы получили небольшой показатель пересечения. Его можно было бы улучшить с помощью параметров. Однако, эти показатели не сильно отличаются (пересечение MACS2 пиков и ENCODE и ENCODE и MACS2 пиков)
+
+```python
+!intervene venn -i /content/drive/MyDrive/bioinformatics/macs2/NA_peaks.broadPeak \
+/content/drive/MyDrive/bioinformatics/ENCFF582SHP.bed --filenames --output \
+/content/drive/MyDrive/bioinformatics/venn_results/venn1.jpg
+```
+
+```python
+!intervene venn -i /content/drive/MyDrive/bioinformatics/ENCFF582SHP.bed \
+/content/drive/MyDrive/bioinformatics/macs2/NA_peaks.broadPeak --filenames --output \
+/content/drive/MyDrive/bioinformatics/venn_results/venn2.jpg
+```
 
 ## NGS 
 Так как в качестве образца использовалась гистоновая метка H3K4me3. То, судя по верхнему графику, можем сказать, что наши результаты близки к результатам из статьи
