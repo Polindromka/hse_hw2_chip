@@ -11,9 +11,10 @@ https://colab.research.google.com/drive/12-qelkrRcmU7LBn52GyvvAMxoQs7JAqa?usp=sh
 ```
 ## Venn
 
-Venn 1 | RVenn 2 
+Venn 1 | Venn 2 
 --- | --- 
 ![Image](images/venn1.png) | ![Image](images/venn2.png) 
+
 
 
 ## NGS 
