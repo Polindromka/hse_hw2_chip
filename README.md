@@ -9,3 +9,5 @@
 ```
 https://colab.research.google.com/drive/12-qelkrRcmU7LBn52GyvvAMxoQs7JAqa?usp=sharing
 ```
+## NGS 
+![Image](images/ngs_plot.png)
