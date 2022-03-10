@@ -69,6 +69,34 @@ Full | Trimmed
 Full | Trimmed
 --- | --- 
 ![Image](images/ENCFF000VIX_per_sequence_GC.png) | ![Image](images/ENCFF000VIX_per_sequence_GC_trimmed.png) 
+
+### ENCFF000VJK
+
+**Basic Statistic**
+
+Full | Trimmed
+--- | --- 
+![Image](images/ENCFF000VJK_basic_statistic.png) | ![Image](images/ENCFF000VJK_basic_statistic.png) 
+
+
+**Per tile sequence quality**
+
+Full | Trimmed
+--- | --- 
+![Image](images/ENCFF000VJK_per_tile.png) | ![Image](images/ENCFF000VJK_per_tile_trimmed.png) 
+
+**Per base sequence content**
+
+Full | Trimmed
+--- | --- 
+![Image](images/ENCFF000VJK_per_base_sequence.png) | ![Image](images/ENCFF000VJK_per_base_sequence_trimmed.png) 
+
+**Per sequence GC content**
+
+Full | Trimmed
+--- | --- 
+![Image](images/ENCFF000VJK_per_sequence_GC.png) | ![Image](images/ENCFF000VJK_per_sequence_GC_trimmed.png) 
+
 ## Выравнивание на 19 хромосому
 
 Образец | Всего ридов | Выравнились 0 раз | Выравнились 1 раз | Выравнились > 1 раза | Общий процент выравнивания
