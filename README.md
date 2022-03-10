@@ -9,5 +9,12 @@
 ```
 https://colab.research.google.com/drive/12-qelkrRcmU7LBn52GyvvAMxoQs7JAqa?usp=sharing
 ```
+## Venn
+
+Venn 1 | RVenn 2 
+--- | --- 
+![Image](images/venn1.png) | ![Image](images/venn2.png) 
+
+
 ## NGS 
 ![Image](images/ngs_plot.png)
