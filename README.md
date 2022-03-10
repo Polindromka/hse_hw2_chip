@@ -17,6 +17,14 @@ https://colab.research.google.com/drive/12-qelkrRcmU7LBn52GyvvAMxoQs7JAqa?usp=sh
 ```
 Однако, подрезание не улучшило значимо характиристики.
 ### ENCFF000VIV
+
+**Basic Statistic**
+
+Full | Trimmed
+--- | --- 
+![Image](images/ENCFF000VIV_basic_statistic.png) | ![Image](images/ENCFF000VIV_basic_statistic.png) 
+
+
 **Per tile sequence quality**
 
 Full | Trimmed
@@ -34,6 +42,33 @@ Full | Trimmed
 Full | Trimmed
 --- | --- 
 ![Image](images/ENCFF000VIV_per_sequence_GC.png) | ![Image](images/ENCFF000VIV_per_sequence_GC_trimmed.png) 
+
+### ENCFF000VIX
+
+**Basic Statistic**
+
+Full | Trimmed
+--- | --- 
+![Image](images/ENCFF000VIX_basic_statistic.png) | ![Image](images/ENCFF000VIX_basic_statistic.png) 
+
+
+**Per tile sequence quality**
+
+Full | Trimmed
+--- | --- 
+![Image](images/ENCFF000VIX_per_tile.png) | ![Image](images/ENCFF000VIX_per_tile_trimmed.png) 
+
+**Per base sequence content**
+
+Full | Trimmed
+--- | --- 
+![Image](images/ENCFF000VIX_per_base_sequence.png) | ![Image](images/ENCFF000VIX_per_base_sequence_trimmed.png) 
+
+**Per sequence GC content**
+
+Full | Trimmed
+--- | --- 
+![Image](images/ENCFF000VIX_per_sequence_GC.png) | ![Image](images/ENCFF000VIX_per_sequence_GC_trimmed.png) 
 ## Выравнивание на 19 хромосому
 
 Образец | Всего ридов | Выравнились 0 раз | Выравнились 1 раз | Выравнились > 1 раза | Общий процент выравнивания
