@@ -9,7 +9,12 @@
 ```
 https://colab.research.google.com/drive/12-qelkrRcmU7LBn52GyvvAMxoQs7JAqa?usp=sharing
 ```
-
+## FASTQC
+Было использовано выравнивание. Пример:
+```python
+!trimmomatic SE -phred33 /content/drive/MyDrive/bioinformatics/ENCFF000VIV.fastq ENCFF000VIV_trimmed.fastq ILLUMINACLIP:TruSeq3-SE:2:30:10 \
+  LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+```
 ## Выравнивание на 19 хромосому
 
 Образец | Всего ридов | Выравнились 0 раз | Выравнились 1 раз | Выравнились > 1 раза | Общий процент выравнивания
