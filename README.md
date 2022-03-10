@@ -15,7 +15,12 @@ https://colab.research.google.com/drive/12-qelkrRcmU7LBn52GyvvAMxoQs7JAqa?usp=sh
 !trimmomatic SE -phred33 /content/drive/MyDrive/bioinformatics/ENCFF000VIV.fastq ENCFF000VIV_trimmed.fastq ILLUMINACLIP:TruSeq3-SE:2:30:10 \
   LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
 ```
-Однако, подрезание не улучшило значимо характиристики.
+- Однако, подрезание не улучшило значимо характиристики. 
+- Замети, что именно контроль (ENCFF000VJK) показал наилучшие результаты (у остальных большое количество "ошибок"). 
+- Заметим, что распределение GC content близко к нормальному для всех реплик. 
+- Заметим, что per base sequence content дал хорошие показатели, только на контроле
+- Заметим, что Per tile sequence quality дал хороший результат только на контроле
+
 ### ENCFF000VIV
 
 **Basic Statistic**
